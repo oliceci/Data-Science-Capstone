@@ -18,3 +18,10 @@ The data within the columns was not as clean so with slicing and Regex I have ma
 Once I cleaned all the data, I created new variables as year, month and day release, as well as ROI. That's when I realized that my dataset had been reduces to less than 15%. As films were from such a large time frame, I have also taken into consideration the inflation throughout the years.
 
 ## EDA
+Whilst doing the EDA, I realised that many film productions had very high, or low numbers and have done some clean to take away outliers. Analysing the heatmap, I have realized that the ROI is not very correlated to the variables, which made me review how we could do not only a regression but also a classification problem. 
+
+It was also very important to understand what are the most profitable production companies, genres, countries and year. 
+
+## Modeling
+
+
