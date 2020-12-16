@@ -28,7 +28,7 @@ It was also very important to understand what are the most profitable production
 I have decided to split this into three parts: Regression, Classification and NLP.
 
 ### Regression
-I have done regression modeling with ROI, Vote Average and Revenue (after inflation) and used Linear Regression, Ridge, Lasso, Elastic Net, Gradient Boosting Regressor and MLP Regressor. 
+I have done regression modeling with ROI, Vote Average and Revenue (after inflation) and used Linear Regression, Ridge, Lasso, Elastic Net, Gradient Boosting Regressor and MLP Regressor. Best scores are:
 
 #### ROI
 Gradient Boosting Regressor
