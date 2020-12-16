@@ -7,3 +7,7 @@ This would be targeted to cultural investors, corporates interested in investing
 The success metrics would be revenue, ROI, IMDb score and valid investment.
 
 Apart from the regression and classification models to determine, I will also use an NLP to review which keywords are more likely used in successful movies.
+
+You can find the full final presentation here: [https://docs.google.com/presentation/d/1trwR6ZAWEsE4543xbZMs_Stx6eDWm18gi-m9SYB84FI/edit#slide=id.p]
+
+## The Data
