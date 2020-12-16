@@ -26,4 +26,13 @@ It was also very important to understand what are the most profitable production
 I have decided to split this into three parts: Regression, Classification and NLP.
 
 ### Regression
+I have done regression modeling with ROI, Vote Average and Revenue (after inflation) and used Linear Regression, Ridge, Lasso, Elastic Net, Gradient Boosting Regressor and MLP Regressor. 
+
 #### ROI
+Gradient Boosting Regressor
+Best Mean Cross-validation scores: -6.964105485269398
+Train score: 0.9999251487004943
+Test score: 0.32616472228789206
+
+#### Vote Average
+
