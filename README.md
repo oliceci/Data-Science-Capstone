@@ -8,6 +8,6 @@ The success metrics would be revenue, ROI, IMDb score and valid investment.
 
 Apart from the regression and classification models to determine, I will also use an NLP to review which keywords are more likely used in successful movies.
 
-You can find the full final presentation here: [https://drive.google.com/file/d/13ArjcJvJxSgU26o6gYyKnUr5I4HkOlHa/view]
+You can find the full final presentation here: [PDF presentation](https://drive.google.com/file/d/13ArjcJvJxSgU26o6gYyKnUr5I4HkOlHa/view)
 
 ## The Data
