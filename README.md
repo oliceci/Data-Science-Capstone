@@ -36,4 +36,6 @@ Gradient Boosting Regressor
 ![](ROI_Gradient_Boosting_Regressor.png)
 
 #### Vote Average
+RidgeCV
 
+![](vote_average_ridgeCV.png)
