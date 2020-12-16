@@ -22,6 +22,8 @@ Whilst doing the EDA, I realised that many film productions had very high, or lo
 
 It was also very important to understand what are the most profitable production companies, genres, countries and year. 
 
+![](EDA_genres.png)
+
 ## Modeling
 I have decided to split this into three parts: Regression, Classification and NLP.
 
