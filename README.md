@@ -30,9 +30,7 @@ I have done regression modeling with ROI, Vote Average and Revenue (after inflat
 
 #### ROI
 Gradient Boosting Regressor
-Best Mean Cross-validation scores: -6.964105485269398
-Train score: 0.9999251487004943
-Test score: 0.32616472228789206
+![](ROI_Gradient_Boosting_Regressor.png)
 
 #### Vote Average
 
