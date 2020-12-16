@@ -30,6 +30,7 @@ I have done regression modeling with ROI, Vote Average and Revenue (after inflat
 
 #### ROI
 Gradient Boosting Regressor
+
 ![](ROI_Gradient_Boosting_Regressor.png)
 
 #### Vote Average
