@@ -12,4 +12,5 @@ You can find the full final presentation here: [Presentation](https://drive.goog
 
 ## The Data
 The dataset has come from Kaggle: [link](https://www.kaggle.com/rounakbanik/the-movies-dataset?select=movies_metadata.csv) and reports on movies from 1902 up to July 2017. It has 45,000 rows and 23 columns.
-![](path....)
+
+The data within the columns was not as clean so with slicing and Regex I have managed to have more readable and comparable data. ![](column_clean.png)
