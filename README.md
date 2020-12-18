@@ -32,19 +32,23 @@ I have done regression modeling with ROI, Vote Average and Revenue (after inflat
 
 #### ROI
 Gradient Boosting Regressor
+| Best Mean Cross Validtion Score | Train Score | Test Score|
+| :---: | :---: | :---: |
+| -6.964105485 | 0.9999251487 | 0.3261647223 |
 
-![](ROI_Gradient_Boosting_Regressor.png)
 
 #### Vote Average
 RidgeCV
+| Best Mean Cross Validtion Score | Train Score | Test Score|
+| :---: | :---: | :---: |
+| 0.223759393 | 0.6256071449 | 0.3238311333 |
 
-![](vote_average_ridgeCV.png)
 
 #### Revenue
 Gradient Boosting Regressor
-| Attempt | #1 | #2 |
+| Best Mean Cross Validtion Score | Train Score | Test Score|
 | :---: | :---: | :---: |
-| Seconds | 301 | 283 |
+| 0.76413194 | 0.992794960 | 0.964433125 |
 
 
 ### Classification
