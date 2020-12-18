@@ -1,6 +1,6 @@
 # Movie Production Investment - Data Science Capstone Project
 ## What is this about?
-For the end of a 3 months immersive course in Data Science, I have worked on a Movie Production Investment project to predict movies that would be successful or have a high review score. With the increase of streaming platforms and the consumption of movies as “fast” culture, I want to analyse a regression and classification model focused on budget, tagline, IMDb voting of films.
+For a 3 month immersive course in Data Science, I worked on a Movie Production Investment project to predict movies that would be successful or have a high review score. With the increase of streaming platforms and the consumption of movies as “fast” culture, I wanted to analyse a regression and classification model focused on budget, tagline, IMDb voting scores of films.
 
 This would be targeted to cultural investors, corporates interested in investing in the arts, film production companies, government cultural departments or even film councils and festivals.
 
@@ -13,19 +13,19 @@ You can find the full final presentation here: [Presentation](https://drive.goog
 ## The Data
 The dataset has come from Kaggle: [link](https://www.kaggle.com/rounakbanik/the-movies-dataset?select=movies_metadata.csv) and reports on movies from 1902 up to July 2017. It has 45,000 rows and 23 columns.
 
-The data within the columns was not as clean so with slicing and Regex I have managed to have more readable and comparable data. ![](column_clean.png)
+The data within the columns was not as clean as I would like, so with slicing and Regex I have managed to have more readable and comparable data. ![](column_clean.png)
 
-Once I cleaned all the data, I created new variables as year, month and day release, as well as ROI. That's when I realized that my dataset had been reduces to less than 15%. As films were from such a large time frame, I have also taken into consideration the inflation throughout the years.
+Once I cleaned all the data, I created new variables such as year, month and day release, as well as ROI. That's when I realized that my dataset had been reduced to less than 15%. As films were from such a large time frame, I have also taken into consideration the inflation throughout the years.
 
 ## EDA
-Whilst doing the EDA, I realised that many film productions had very high, or low numbers and have done some clean to take away outliers. Analysing the heatmap, I have realized that the ROI is not very correlated to the variables, which made me review how we could do not only a regression but also a classification problem. 
+Whilst doing the EDA, I realised that many film productions had very high, or low numbers and have done some cleaning to take away outliers. Analysing the heatmap, I realized that the ROI is not very correlated to the variables, which made me review how we could do not only a regression but also a classification problem. 
 
 It was also very important to understand what are the most profitable production companies, genres, countries and year. 
 
 ![](EDA_genres.png)
 
 ## Modeling
-I have decided to split this into three parts: Regression, Classification and NLP.
+I decided to split this into three parts: Regression, Classification and NLP.
 
 ### Regression
 I have done regression modeling with ROI, Vote Average and Revenue (after inflation) and used Linear Regression, Ridge, Lasso, Elastic Net, Gradient Boosting Regressor and MLP Regressor. Best scores for each target variable are:
@@ -52,7 +52,7 @@ Gradient Boosting Regressor
 
 
 ### Classification
-As the ROI regression didn't go as well as expected, I have created a new boolean variable, valid_investment, and a classification analysis. The models used were Logistic Regression and Naive Bayes with GridSearchCV. The best score was with Logistic Regression:
+As the ROI regression didn't go as well as expected, I created a new boolean variable, valid_investment, and a classification analysis. The models used were Logistic Regression and Naive Bayes with GridSearchCV. The best score was with Logistic Regression:
 | Best Score | Train Score | Test Score|
 | :---: | :---: | :---: |
 | 0.88996458 | 0.99952774 | 0.909348441 |
@@ -64,7 +64,7 @@ I wanted to take a look if there would be any difference if we did a split betwe
 
 ### Natural Language Processing
 I was also interested in the doing NLP in the taglines of the movies and have also created a word cloud to understand which words were mostly used. 
-Here under are the scores using Logistic Regressionwith GridsearchCV
+Here are the scores using Logistic Regressionwith GridsearchCV
 | Best Score | Train Score | Test Score|
 | :---: | :---: | :---: |
 | 1.0 | 1.0 | 0.9994535519125683 |
