@@ -67,5 +67,4 @@ I was also interested in the doing NLP in the taglines of the movies and have al
 
 ![](word_cloud.png)
 
-
-
+Full code can be found here: 
