@@ -43,9 +43,7 @@ RidgeCV
 #### Revenue
 Gradient Boosting Regressor
 
-![](rev_gradient_boosting_reg.png)
 
 ### Classification
 As the ROI regression didn't go as well as expected, I have created a new boolean variable, valid_investment, and a classification analysis. The models used were Logistic Regression and Naive Bayes with GridSearchCV. The best score was with Logistic Regression:
 
-![](valid_invt_logistic_regression.png)
