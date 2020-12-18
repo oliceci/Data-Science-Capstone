@@ -28,7 +28,7 @@ It was also very important to understand what are the most profitable production
 I have decided to split this into three parts: Regression, Classification and NLP.
 
 ### Regression
-I have done regression modeling with ROI, Vote Average and Revenue (after inflation) and used Linear Regression, Ridge, Lasso, Elastic Net, Gradient Boosting Regressor and MLP Regressor. Best scores are:
+I have done regression modeling with ROI, Vote Average and Revenue (after inflation) and used Linear Regression, Ridge, Lasso, Elastic Net, Gradient Boosting Regressor and MLP Regressor. Best scores for each target variable are:
 
 #### ROI
 Gradient Boosting Regressor
@@ -39,3 +39,13 @@ Gradient Boosting Regressor
 RidgeCV
 
 ![](vote_average_ridgeCV.png)
+
+#### Revenue
+Gradient Boosting Regressor
+
+![](rev_gradient_boosting_reg.png)
+
+### Classification
+As the ROI regression didn't go as well as expected, I have created a new boolean variable, valid_investment, and a classification analysis. The models used were Logistic Regression and Naive Bayes with GridSearchCV. The best score was with Logistic Regression:
+
+![](valid_invt_logistic_regression.png)
