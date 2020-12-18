@@ -42,7 +42,9 @@ RidgeCV
 
 #### Revenue
 Gradient Boosting Regressor
-![](test.png)
+| Attempt | #1 | #2 |
+| :---: | :---: | :---: |
+| Seconds | 301 | 283 |
 
 
 ### Classification
