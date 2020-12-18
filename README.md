@@ -64,7 +64,14 @@ I wanted to take a look if there would be any difference if we did a split betwe
 
 ### Natural Language Processing
 I was also interested in the doing NLP in the taglines of the movies and have also created a word cloud to understand which words were mostly used. 
+Here under are the scores using Logistic Regressionwith GridsearchCV
+| Best Score | Train Score | Test Score|
+| :---: | :---: | :---: |
+| 1.0 | 1.0 | 0.9994535519125683 |
 
 ![](word_cloud.png)
+
+## Further Developments:
+There are a few further analysis and software I would like to add and implement. 
 
 Full code can be found here: 
