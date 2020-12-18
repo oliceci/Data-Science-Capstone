@@ -53,4 +53,15 @@ Gradient Boosting Regressor
 
 ### Classification
 As the ROI regression didn't go as well as expected, I have created a new boolean variable, valid_investment, and a classification analysis. The models used were Logistic Regression and Naive Bayes with GridSearchCV. The best score was with Logistic Regression:
+| Best Score | Train Score | Test Score|
+| :---: | :---: | :---: |
+| 0.88996458 | 0.99952774 | 0.909348441 |
+
+I wanted to take a look if there would be any difference if we did a split between pre and after 2011, boom of streaming services, and refitted the models with this new train/test split. The models used were again Logistic Regression and Naive Bayes with GridSearchCV and the best score was again with Logistic Regression:
+| Best Score | Train Score | Test Score|
+| :---: | :---: | :---: |
+| 0.92276214 | 0.99820971 | 0.88872832 |
+
+
+
 
