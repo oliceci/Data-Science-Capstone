@@ -63,7 +63,7 @@ I wanted to take a look if there would be any difference if we did a split betwe
 | 0.92276214 | 0.99820971 | 0.88872832 |
 
 ### Natural Language Processing
-I was also interested in the doing NLP in the taglines of the movies and have also created a word cloud to understand which words were mostly used. 
+I was also interested in the doing NLP in the taglines of movies and have also created a word cloud to understand which words were mostly used. 
 Here are the scores using Logistic Regressionwith GridsearchCV
 | Best Score | Train Score | Test Score|
 | :---: | :---: | :---: |
