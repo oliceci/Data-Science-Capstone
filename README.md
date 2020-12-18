@@ -72,7 +72,7 @@ Here are the scores using Logistic Regressionwith GridsearchCV
 ![](word_cloud.png)
 
 ## Further Developments:
-There are a few further analysis and software I would like to add and implement. 
+There are a few further analysis and software I would like to add and implement. I would like to continue analytics with vote and popularity, add data with webscrapping, as well as a recommendation method on rating. I would also like to present my EDA on Tableau, as well as fit further models on Classification and NLP.
 
 Full code can be found here: 
 https://nbviewer.jupyter.org/github/oliceci/Data-Science-Capstone/blob/main/Final_Capstone_Movie_Investment.ipynb
