@@ -75,3 +75,4 @@ Here under are the scores using Logistic Regressionwith GridsearchCV
 There are a few further analysis and software I would like to add and implement. 
 
 Full code can be found here: 
+https://nbviewer.jupyter.org/github/oliceci/Data-Science-Capstone/blob/main/Final_Capstone_Movie_Investment.ipynb
