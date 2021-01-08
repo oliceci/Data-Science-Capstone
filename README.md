@@ -38,35 +38,35 @@ I have done regression modeling with ROI, Vote Average and Revenue (after inflat
 
 #### ROI
 Gradient Boosting Regressor
-| Best Mean Cross Validtion Score | Train Score | Test Score|
+| Best Mean Cross Validation Score | Train Score | Test Score|
 | :---: | :---: | :---: |
-| -6.964105485 | 0.9999251487 | 0.3261647223 |
+| -1621860.726 | 0.9892423 | 0.30540365 |
 
 
 #### Vote Average
 RidgeCV
-| Best Mean Cross Validtion Score | Train Score | Test Score|
+| Best Mean Cross Validation Score | Train Score | Test Score|
 | :---: | :---: | :---: |
-| 0.223759393 | 0.6256071449 | 0.3238311333 |
+| 0.094356950 | 0.61227065 | 0.3238311333 |
 
 
 #### Revenue
 Gradient Boosting Regressor
-| Best Mean Cross Validtion Score | Train Score | Test Score|
+| Best Mean Cross Validation Score | Train Score | Test Score|
 | :---: | :---: | :---: |
-| 0.76413194 | 0.992794960 | 0.964433125 |
+| 0.8809531 | 0.57763 | 0.788107 |
 
 
 ### Classification
-As the ROI regression didn't go as well as expected, I created a new boolean variable, valid_investment, and a classification analysis. The models used were Logistic Regression and Naive Bayes with GridSearchCV. The best score was with Logistic Regression:
+As the ROI regression didn't go as well as expected, I created a new boolean variable, valid_investment, where if the return on investment is bigger than 100%, it is a valid investment, otherwise it is not. With that, I have done a classification analysis. The models used were Logistic Regression and Naive Bayes with GridSearchCV. The best score was with Logistic Regression:
 | Best Score | Train Score | Test Score|
 | :---: | :---: | :---: |
-| 0.88996458 | 0.99952774 | 0.909348441 |
+| 0.8951162 |  0.99883 | 0.894981 |
 
 I wanted to take a look if there would be any difference if we did a split between pre and after 2011, boom of streaming services, and refitted the models with this new train/test split. The models used were again Logistic Regression and Naive Bayes with GridSearchCV and the best score was again with Logistic Regression:
 | Best Score | Train Score | Test Score|
 | :---: | :---: | :---: |
-| 0.92276214 | 0.99820971 | 0.88872832 |
+| 0.93148| 0.9954659 | 0.906116 |
 
 ### Natural Language Processing
 I was also interested in the doing NLP in the taglines of movies and have also created a word cloud to understand which words were mostly used. 
