@@ -13,9 +13,10 @@ You can find the full final presentation here: [Presentation](https://drive.goog
 ## The Data
 The dataset has come from Kaggle: [link](https://www.kaggle.com/rounakbanik/the-movies-dataset?select=movies_metadata.csv) and reports on movies from 1902 up to July 2017. It has 45,000 rows and 23 columns.
 
-The data within the columns was not as clean as I would like, so with slicing and Regex I have managed to have more readable and comparable data. ![](column_clean.png)
+The data within the columns was not as clean as I would like, so with slicing and Regex I have managed to have more readable and comparable data. 
+![](column_clean.png)
 
-Once I cleaned all the data, I created new variables such as year, month and day release, as well as ROI. That's when I realized that my dataset had been reduced to less than 15%. As films were from such a large time frame, I have also taken into consideration the inflation throughout the years.
+Once I cleaned all the data, I created new variables such as year, month and day release, as well as ROI. After deleting all rows that didn't have a revenue or budget, I realized that my dataset had been reduced to less than 15%. As films were from such a large time frame, I have also taken into consideration the inflation throughout the years.
 
 ## EDA
 Whilst doing the EDA, I realised that many film productions had very high, or low numbers and have done some cleaning to take away outliers. Analysing the heatmap, I realized that the ROI is not very correlated to the variables, which made me review how we could do not only a regression but also a classification problem. 
