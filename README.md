@@ -19,6 +19,10 @@ The data within the columns was not as clean as I would like, so with slicing an
 
 Once I cleaned all the data, I created new variables such as year, month and day release, as well as ROI. After deleting all rows that didn't have a revenue or budget, I realized that my dataset had been reduced to less than 15%. As films were from such a large time frame, I have also taken into consideration the inflation throughout the years.
 
+Here is a snap of what the data looked like at the end:
+
+![](column_end_clean.png)
+
 ## EDA
 Whilst doing the EDA, I realised that many film productions had very high, or low numbers and have done some cleaning to take away outliers. Analysing the heatmap, I realized that the ROI is not very correlated to the variables, which made me review how we could do not only a regression but also a classification problem. 
 
