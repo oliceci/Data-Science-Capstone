@@ -8,7 +8,7 @@ The success metrics would be revenue, ROI, IMDb score and valid investment.
 
 Apart from the regression and classification models to determine, I will also use an NLP to review which keywords are more likely used in successful movies.
 
-You can find the full final presentation here: [Presentation](https://drive.google.com/file/d/1-cqwSO-wGt8CFqMnzYn_a93Pg9LWIWXW/view?usp=sharing)
+You can find the full final presentation here: [Presentation](https://drive.google.com/file/d/1rfKJkJqsqfTKAZKuD4svi4Vcsq7eqrM4/view?usp=sharing)
 
 ## The Data
 The dataset has come from Kaggle: [link](https://www.kaggle.com/rounakbanik/the-movies-dataset?select=movies_metadata.csv) and reports on movies from 1902 up to July 2017. It has 45,000 rows and 23 columns.
